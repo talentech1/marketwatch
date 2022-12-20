@@ -1,5 +1,6 @@
 Feature: Login
-
+  
+  @login
 	Scenario: User should able to login with valid credentials
 		Given I am on the homepage
 		 And I navigate to the login page
